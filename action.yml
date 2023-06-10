@@ -32,6 +32,8 @@ runs:
     - run: docker run ghcr.io/perfai-inc/perfai-engine:main -e apiSpecURL=${{ inputs.apiSpecURL }} -e apiBasePath=${{ inputs.apiBasePath }} -e authUrl=${{ inputs.authUrl }} -e authBody=${{ inputs.authBody }}
       shell: bash
 
+
+
 # runs:
 #   using: 'docker'
 #   image: 'docker://ghcr.io/perfai-inc/perfai-engine:main' -e ${{ inputs.apiSpecURL }} -e ${{ inputs.apiBasePath }} 
